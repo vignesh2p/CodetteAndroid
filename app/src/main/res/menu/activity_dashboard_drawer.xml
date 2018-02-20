@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Promote Me">
+    <menu>
+        <item
+            android:id="@+id/menu_trending"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="Trending in Market" />
+        <item
+            android:id="@+id/menu_sms"
+            android:icon="@drawable/ic_textsms_black_24dp"
+            android:title="SMS" />
+        <item
+            android:id="@+id/menu_email"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Email" />
+        <item
+            android:id="@+id/push_notify"
+            android:icon="@drawable/ic_tap_and_play_black_24dp"
+            android:title="Push Notifications" />
+
+    </menu>
+    </item>
+    <item android:title="Utilities">
+        <menu>
+            <item
+                android:id="@+id/menu_contacts"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contacts" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
